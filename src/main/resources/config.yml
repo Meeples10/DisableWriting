@@ -1,0 +1,16 @@
+disable-books: true
+disable-signs: true
+disable-chat: true
+disable-maps: true
+replace-join-leave-messages: true
+
+# Players listed here can use books and signs, regardless of the settings above
+# Names are case-insensitive
+bypass-players:
+  - Notch
+  - jeb_
+
+# This causes the plugin to send messages in the console when events are fired
+# [F] indicates that an event has been fired, and [C] indicates that an event
+# has been cancelled
+debug: false

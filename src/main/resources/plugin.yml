@@ -1,0 +1,16 @@
+name: DisableWriting
+main: io.github.meeples10.disablewriting.Main
+version: %PROJECT_VERSION%
+author: Meeples10
+description: %PROJECT_DESCRIPTION%
+api-version: 1.16
+commands:
+  dw:
+    description: Manage the plugin
+    usage: /dw
+    permission: disablewriting.admin
+    default: op
+permissions:
+  disablewriting.admin:
+    description: Allows players to manage the plugin
+    default: op
