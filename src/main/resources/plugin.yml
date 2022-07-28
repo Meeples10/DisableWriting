@@ -3,7 +3,7 @@ main: io.github.meeples10.disablewriting.Main
 version: %PROJECT_VERSION%
 author: Meeples10
 description: %PROJECT_DESCRIPTION%
-api-version: 1.16
+api-version: 1.19
 commands:
   dw:
     description: Manage the plugin
