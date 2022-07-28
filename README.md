@@ -6,7 +6,15 @@ A plugin for disabling the use of written language on a Minecraft server.
 
 |Command|Description|Permission|
 |-------|-----------|----------|
-|`/dw`|Allows players to toggle the effects of the plugin for themselves.|`disablewriting.admin`|
+|`/dw`|Manage the plugin.|`disablewriting.admin`|
+|`/dw reload`|Reload the plugin.|`disablewriting.admin`|
+|`/dw bypass`|List players that can bypass writing restrictions.|`disablewriting.admin`|
+|`/dw togglebooks`|Enable or disable books.|`disablewriting.admin`|
+|`/dw togglesigns`|Enable or disable signs.|`disablewriting.admin`|
+|`/dw togglechat`|Enable or disable chat.|`disablewriting.admin`|
+|`/dw togglemaps`|Enable or disable maps.|`disablewriting.admin`|
+|`/dw togglemessages`|Enable or disable short join/leave messages.|`disablewriting.admin`|
+|`/dw show`|Show which items are enabled or disabled.|`disablewriting.admin`|
 
 ## Configuration
 
