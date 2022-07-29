@@ -6,7 +6,7 @@ A plugin for disabling the use of written language on a Minecraft server.
 
 |Command|Description|Permission|
 |-------|-----------|----------|
-|`/dw`|Manage the plugin.|`disablewriting.admin`|
+|`/dw`|Shows the plugin's help message.|`disablewriting.admin`|
 |`/dw reload`|Reload the plugin.|`disablewriting.admin`|
 |`/dw bypass`|List players that can bypass writing restrictions.|`disablewriting.admin`|
 |`/dw togglebooks`|Enable or disable books.|`disablewriting.admin`|
@@ -27,5 +27,5 @@ The default configuration file can be found [here](https://github.com/Meeples10/
 |`disable-chat`|If true, players will not be able to send chat messages.|
 |`disable-maps`|If true, players will be prevented from using maps.|
 |`replace-join-leave-messages`|If true, player join and leave messages will be replaced with `[+] Name` and `[-] Name`, respectively.|
-|`bypass-players`|Players listed here can use books and signs, regardless of the settings above. Names are case-insensitive.|
+|`bypass-players`|Players listed here can use books, signs, chat, and maps, regardless of the settings above. Names are case-insensitive.|
 |`debug`|This causes the plugin to send messages in the console when events are fired. \[F\] indicates that an event has been fired, and \[C\] indicates that an event has been cancelled.|
